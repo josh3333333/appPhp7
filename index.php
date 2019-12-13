@@ -16,11 +16,14 @@
 <body>
     <section id="contenedor">
     <header id="gridHeader">
-    <center><h1>Science Technology Engineerig & Mathematics</h1></center>
+   
+    <center>
+    <img  src="images/fotoSelfie.jpg" alt="su foto" width="150px" height="130px" >
+    <h1>Science Technology Engineerig & Mathematics</h1></center>
     <center><h2>Resolver problemas de Ciencia e Ingenieria con JS</h2></center>
     <center><h2>Nombre: Guzman Iguanero Josue Althair &nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No. de control: 17091061</h2></center>
-    <img class="foto" src="images/foto.jpeg" alt="su foto">
+    
     </header>
     </section>
     <section id="problema"  class="gridProblema">
@@ -75,11 +78,13 @@
           $t=6;
           $Vox=69.28 ;
           $Voy= 40;
-          $X=415.68; 
-          $Y=63.6 ; 
+          $X=$Vox*$t ; 
+          $Y= $Voy*$t+$g*($t)*($t)/2;
+          $tmax=-$Voy/$g;
+          $tv=2*$tmax;  
           
            
-          $R=565.53; 
+          $R=$Vox*$tv; 
           
           
           print "a.-)Posicion y velocidad despues de los 6s <br>
@@ -93,3 +98,5 @@
     </footer>
 </body>
 </html>
+
+
