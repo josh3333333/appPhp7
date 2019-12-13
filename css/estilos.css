@@ -1,5 +1,5 @@
 body{
-    background-color: yellow;
+    background-color: orange;
     color: white;
     font-family: 'Comfortaa', cursive;
     font-size: 1.2em;
@@ -14,20 +14,14 @@ header, footer {
  height: 50px;
 }
 header{
-    display: inline-flex;
     font-family: 'Rambla', sans-serif;
-    font-size: 1.1em;
+    font-size: 1.0em;
 }
 
-#container{
+#contenedor{
     background-image: url(../images/phy11.jpg);
     display: block;
     height: 800px;
-}
-
-.otroIntento{
-   color: yellow;
-   font-weight: bold;
 }
 
 footer{
